@@ -29,7 +29,7 @@ int main() {
 	MyModel model;
 	bounce.setModel(&model);
 
-	double phiTV[1] = {10.}; // a point at which V<0
+	double phiTV[1] = {9.}; // a point at which V<0
 	double phiFV[1] = {0.}; // false vacuum
 	bounce.setVacuum(phiTV, phiFV);
 
